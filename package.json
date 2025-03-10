@@ -1,0 +1,23 @@
+{
+    "name": "express",
+    "version": "1.0.0",
+    "description": "connecting ecommerce with backend",
+    "keywords": [
+        "express",
+        "mongoose"
+    ],
+    "license": "ISC",
+    "author": "ridamgrover",
+    "type": "commonjs",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "mongodb": "^6.14.0",
+        "mongoose": "^8.11.0"
+    }
+}
